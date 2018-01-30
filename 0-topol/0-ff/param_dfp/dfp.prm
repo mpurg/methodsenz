@@ -1,0 +1,168 @@
+
+[atom_types]
+dfp_P1           2447.7925  2447.7925    46.7907  1730.8507    33.0860     30.974  ! high   P1    ! P in P=O, phosphine oxide
+dfp_O1            401.0174   401.0174    17.3232   283.5621    12.2494     15.999  ! high   OS    ! OR in P=O or P=S
+dfp_C1            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dfp_O2            401.0174   401.0174    17.3232   283.5621    12.2494     15.999  ! high   OS    ! OR in P=O or P=S
+dfp_C2            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dfp_C3            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dfp_C4            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dfp_O3            626.3868   626.3868    23.6698   442.9223    16.7370     15.999  ! high   O2Z   ! O= in OP
+dfp_F1            318.9913   318.9913    12.5527   225.5609     8.8761     18.988  ! med    F     ! F: generic
+dfp_C5            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dfp_C6            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dfp_H1             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H2             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H3             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H4             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H5             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H6             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H7             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H8             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H9             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H10            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H11            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H12            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H13            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dfp_H14            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+
+
+[bonds]
+dfp_P1          dfp_O1              810.00     1.6230     ! high   ! 0 P1-OS ==> P1-OS
+dfp_P1          dfp_O2              810.00     1.6230     ! high   ! 0 P1-OS ==> P1-OS
+dfp_P1          dfp_O3             1350.00     1.4900     ! high   ! 0 P1-O2Z ==> P1-O2Z
+dfp_P1          dfp_F1              890.00     1.5850     ! high   ! 0 P1-F ==> P1-F
+dfp_O1          dfp_C1              640.00     1.4100     ! high   ! 0 OS-CT ==> OS-CT
+dfp_C1          dfp_C4              536.00     1.5290     ! high   ! 0 CT-CT ==> CT-CT
+dfp_C1          dfp_C6              536.00     1.5290     ! high   ! 0 CT-CT ==> CT-CT
+dfp_C1          dfp_H1              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_O2          dfp_C2              640.00     1.4100     ! high   ! 0 OS-CT ==> OS-CT
+dfp_C2          dfp_C3              536.00     1.5290     ! high   ! 0 CT-CT ==> CT-CT
+dfp_C2          dfp_C5              536.00     1.5290     ! high   ! 0 CT-CT ==> CT-CT
+dfp_C2          dfp_H2              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C3          dfp_H3              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C3          dfp_H4              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C3          dfp_H5              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C4          dfp_H6              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C4          dfp_H7              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C4          dfp_H8              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C5          dfp_H9              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C5          dfp_H10             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C5          dfp_H11             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C6          dfp_H12             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C6          dfp_H13             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dfp_C6          dfp_H14             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+
+
+[angles]
+dfp_O1          dfp_P1          dfp_O2              240.00   102.3800     ! high   ! ==> OS-P1-OS
+dfp_O1          dfp_P1          dfp_O3              200.00   115.8610     ! high   ! ==> OS-P1-O2Z
+dfp_O1          dfp_P1          dfp_F1              230.00   101.3300     ! high   ! ==> OS-P1-F
+dfp_O2          dfp_P1          dfp_O3              200.00   115.8610     ! high   ! ==> OS-P1-O2Z
+dfp_O2          dfp_P1          dfp_F1              230.00   101.3300     ! high   ! ==> OS-P1-F
+dfp_O3          dfp_P1          dfp_F1              200.00   110.6600     ! high   ! ==> O2Z-P1-F
+dfp_P1          dfp_O1          dfp_C1              150.00   119.2460     ! high   ! ==> P1-OS-CT
+dfp_O1          dfp_C1          dfp_C4              100.00   109.5000     ! high   ! ==> OS-CT-CT
+dfp_O1          dfp_C1          dfp_C6              100.00   109.5000     ! high   ! ==> OS-CT-CT
+dfp_O1          dfp_C1          dfp_H1               70.00   109.5000     ! high   ! ==> OS-CT-HC
+dfp_C4          dfp_C1          dfp_C6              116.70   112.7000     ! high   ! ==> CT-CT-CT
+dfp_C4          dfp_C1          dfp_H1               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C6          dfp_C1          dfp_H1               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_P1          dfp_O2          dfp_C2              150.00   119.2460     ! high   ! ==> P1-OS-CT
+dfp_O2          dfp_C2          dfp_C3              100.00   109.5000     ! high   ! ==> OS-CT-CT
+dfp_O2          dfp_C2          dfp_C5              100.00   109.5000     ! high   ! ==> OS-CT-CT
+dfp_O2          dfp_C2          dfp_H2               70.00   109.5000     ! high   ! ==> OS-CT-HC
+dfp_C3          dfp_C2          dfp_C5              116.70   112.7000     ! high   ! ==> CT-CT-CT
+dfp_C3          dfp_C2          dfp_H2               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C5          dfp_C2          dfp_H2               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C2          dfp_C3          dfp_H3               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C2          dfp_C3          dfp_H4               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C2          dfp_C3          dfp_H5               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_H3          dfp_C3          dfp_H4               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_H3          dfp_C3          dfp_H5               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_H4          dfp_C3          dfp_H5               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_C1          dfp_C4          dfp_H6               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C1          dfp_C4          dfp_H7               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C1          dfp_C4          dfp_H8               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_H6          dfp_C4          dfp_H7               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_H6          dfp_C4          dfp_H8               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_H7          dfp_C4          dfp_H8               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_C2          dfp_C5          dfp_H9               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C2          dfp_C5          dfp_H10              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C2          dfp_C5          dfp_H11              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_H9          dfp_C5          dfp_H10              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_H9          dfp_C5          dfp_H11              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_H10         dfp_C5          dfp_H11              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_C1          dfp_C6          dfp_H12              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C1          dfp_C6          dfp_H13              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_C1          dfp_C6          dfp_H14              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dfp_H12         dfp_C6          dfp_H13              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_H12         dfp_C6          dfp_H14              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dfp_H13         dfp_C6          dfp_H14              66.00   107.8000     ! high   ! ==> HC-CT-HC
+
+
+[torsions]
+dfp_O2          dfp_P1          dfp_O1          dfp_C1              0.9180    -1.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dfp_O2          dfp_P1          dfp_O1          dfp_C1              0.2290    -2.0000   180.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dfp_O2          dfp_P1          dfp_O1          dfp_C1              0.3205     3.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dfp_O3          dfp_P1          dfp_O1          dfp_C1              0.0000     1.0000     0.0000     1.0000  ! high   ! ==> O2Z-P1-OS-CT
+dfp_F1          dfp_P1          dfp_O1          dfp_C1              0.1500     3.0000     0.0000     1.0000  ! low    ! ==> ??-OS-P2-??
+dfp_O1          dfp_P1          dfp_O2          dfp_C2              0.9180    -1.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dfp_O1          dfp_P1          dfp_O2          dfp_C2              0.2290    -2.0000   180.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dfp_O1          dfp_P1          dfp_O2          dfp_C2              0.3205     3.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dfp_O3          dfp_P1          dfp_O2          dfp_C2              0.0000     1.0000     0.0000     1.0000  ! high   ! ==> O2Z-P1-OS-CT
+dfp_F1          dfp_P1          dfp_O2          dfp_C2              0.1500     3.0000     0.0000     1.0000  ! low    ! ==> ??-OS-P2-??
+dfp_P1          dfp_O1          dfp_C1          dfp_C4             -2.6555    -1.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O1          dfp_C1          dfp_C4             -0.2235    -2.0000   180.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O1          dfp_C1          dfp_C4              0.2415     3.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O1          dfp_C1          dfp_C6             -2.6555    -1.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O1          dfp_C1          dfp_C6             -0.2235    -2.0000   180.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O1          dfp_C1          dfp_C6              0.2415     3.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O1          dfp_C1          dfp_H1              0.0300     3.0000     0.0000     1.0000  ! high   ! ==> P?-OS-CT-HC
+dfp_O1          dfp_C1          dfp_C4          dfp_H6              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_O1          dfp_C1          dfp_C4          dfp_H7              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_O1          dfp_C1          dfp_C4          dfp_H8              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_C6          dfp_C1          dfp_C4          dfp_H6              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_C6          dfp_C1          dfp_C4          dfp_H7              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_C6          dfp_C1          dfp_C4          dfp_H8              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_H1          dfp_C1          dfp_C4          dfp_H6              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_H1          dfp_C1          dfp_C4          dfp_H7              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_H1          dfp_C1          dfp_C4          dfp_H8              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_O1          dfp_C1          dfp_C6          dfp_H12             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_O1          dfp_C1          dfp_C6          dfp_H13             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_O1          dfp_C1          dfp_C6          dfp_H14             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_C4          dfp_C1          dfp_C6          dfp_H12             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_C4          dfp_C1          dfp_C6          dfp_H13             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_C4          dfp_C1          dfp_C6          dfp_H14             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_H1          dfp_C1          dfp_C6          dfp_H12             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_H1          dfp_C1          dfp_C6          dfp_H13             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_H1          dfp_C1          dfp_C6          dfp_H14             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_P1          dfp_O2          dfp_C2          dfp_C3             -2.6555    -1.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O2          dfp_C2          dfp_C3             -0.2235    -2.0000   180.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O2          dfp_C2          dfp_C3              0.2415     3.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O2          dfp_C2          dfp_C5             -2.6555    -1.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O2          dfp_C2          dfp_C5             -0.2235    -2.0000   180.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O2          dfp_C2          dfp_C5              0.2415     3.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dfp_P1          dfp_O2          dfp_C2          dfp_H2              0.0300     3.0000     0.0000     1.0000  ! high   ! ==> P?-OS-CT-HC
+dfp_O2          dfp_C2          dfp_C3          dfp_H3              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_O2          dfp_C2          dfp_C3          dfp_H4              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_O2          dfp_C2          dfp_C3          dfp_H5              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_C5          dfp_C2          dfp_C3          dfp_H3              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_C5          dfp_C2          dfp_C3          dfp_H4              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_C5          dfp_C2          dfp_C3          dfp_H5              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_H2          dfp_C2          dfp_C3          dfp_H3              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_H2          dfp_C2          dfp_C3          dfp_H4              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_H2          dfp_C2          dfp_C3          dfp_H5              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_O2          dfp_C2          dfp_C5          dfp_H9              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_O2          dfp_C2          dfp_C5          dfp_H10             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_O2          dfp_C2          dfp_C5          dfp_H11             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dfp_C3          dfp_C2          dfp_C5          dfp_H9              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_C3          dfp_C2          dfp_C5          dfp_H10             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_C3          dfp_C2          dfp_C5          dfp_H11             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dfp_H2          dfp_C2          dfp_C5          dfp_H9              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_H2          dfp_C2          dfp_C5          dfp_H10             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dfp_H2          dfp_C2          dfp_C5          dfp_H11             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+
+
+[impropers]
+

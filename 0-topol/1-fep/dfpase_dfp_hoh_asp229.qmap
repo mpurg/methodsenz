@@ -1,0 +1,45 @@
+# q atom (q)                   PDB ID                        LIB ID (resname.name)
+# or neighbour (n)?         (resid.name)             STATE 1       STATE 2        STATE 3       ....
+
+# DFP
+q                              315.P1              DFP.P1        DIP.P1 
+q                              315.O1              DFP.O1        DIP.O1 
+q                              315.C1              DFP.C1        DIP.C1 
+q                              315.O2              DFP.O2        DIP.O2 
+q                              315.C2              DFP.C2        DIP.C2  
+q                              315.C3              DFP.C3        DIP.C3  
+q                              315.C4              DFP.C4        DIP.C4  
+q                              315.O3              DFP.O3        DIP.O3  
+q                              315.F1              DFP.F1        FLU.F1
+q                              315.C5              DFP.C5        DIP.C5  
+q                              315.C6              DFP.C6        DIP.C6  
+q                              315.H1              DFP.H1        DIP.H1  
+q                              315.H2              DFP.H2        DIP.H2  
+q                              315.H3              DFP.H3        DIP.H3  
+q                              315.H4              DFP.H4        DIP.H4  
+q                              315.H5              DFP.H5        DIP.H5  
+q                              315.H6              DFP.H6        DIP.H6 
+q                              315.H7              DFP.H7        DIP.H7 
+q                              315.H8              DFP.H8        DIP.H8 
+q                              315.H9              DFP.H9        DIP.H9 
+q                              315.H10             DFP.H10       DIP.H10
+q                              315.H11             DFP.H11       DIP.H11
+q                              315.H12             DFP.H12       DIP.H12
+q                              315.H13             DFP.H13       DIP.H13
+q                              315.H14             DFP.H14       DIP.H14
+                                                                    
+# water nucleophile
+q                              316.O               OHH.O         DIP.O4
+q                              316.H1              OHH.H1        ASH.HD1
+q                              316.H2              OHH.H2        DIP.H15
+
+# ASP229(227) general base
+n                              227.CA              ASP.CA        ASH.CA
+q                              227.CB              ASP.CB        ASH.CB 
+q                              227.HB2             ASP.HB2       ASH.HB2
+q                              227.HB3             ASP.HB3       ASH.HB3
+q                              227.CG              ASP.CG        ASH.CG
+q                              227.OD1             ASP.OD1       ASH.OD1
+q                              227.OD2             ASP.OD2       ASH.OD2
+
+

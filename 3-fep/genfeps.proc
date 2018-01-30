@@ -1,0 +1,58 @@
+# This is an example input for FEP inputs generation with q_genfeps.py
+#
+# The files section is automatically generated for each step
+# Lambda values are generated as well
+
+#######################################################
+{SCRIPT_VARS}
+#######################################################
+SEQ_REST1            $315.P1$     $316.H2$   0.1   0  0  0   
+# leaving group - to prevent dissociation
+DIST_REST1   $315.P1$    $315.F1$          0.0  3.0    3.0  0   # DFP.P1 - DFP.F1
+
+#######################################################
+{GENERAL}
+#######################################################
+[MD]
+stepsize                   1
+temperature           298.15
+bath_coupling            100  
+separate_scaling          on
+lrf                       on
+
+[cut-offs]
+solute_solute             10
+solute_solvent            10
+solvent_solvent           10
+q_atom                    99
+
+[intervals]
+non_bond                 30
+output                10000
+trajectory            10000
+temperature           10000
+
+
+[sequence_restraints]
+SEQ_REST1
+
+[distance_restraints]
+DIST_REST1
+
+[angle_restraints]
+
+#######################################################
+{STEPS_EQUIL}
+#######################################################
+[MD]
+steps                100000
+
+#######################################################
+{FEP}
+#######################################################
+[MD]
+steps                100000
+
+[intervals]
+energy                   10
+

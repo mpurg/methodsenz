@@ -1,0 +1,18 @@
+{FLU}
+# Generated with q_ffld2q.py from 'flu.ffld14'
+# Date: Wed Sep 23 17:18:01 2015
+
+[atoms]
+    1  F1    flu_F1             -1.0000
+
+
+[bonds]
+
+
+[impropers]
+
+
+[charge_groups]
+F1
+
+

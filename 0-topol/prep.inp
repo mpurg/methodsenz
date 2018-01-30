@@ -1,0 +1,15 @@
+readlib ./0-ff/ohh.lib
+readlib ./0-ff/dfp.lib
+readlib ./0-ff/ca6.lib
+readlib ./0-ff/qoplsaa.lib
+readprm ./0-ff/qoplsaa_dfp_ca6.prm
+readpdb dfpase_dfp.pdb
+
+boundary 1 314:C61 25
+solvate 314:C61 25 1 HOH
+
+maketop   pro.top
+writetop  pro.top
+writepdb  dfpase_dfp_start.pdb y
+quit
+

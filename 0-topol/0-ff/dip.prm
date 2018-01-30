@@ -1,0 +1,182 @@
+
+[atom_types]
+dip_P1           2447.7925  2447.7925    46.7907  1730.8507    33.0860     30.974  ! high   P1    ! P in P=O, phosphine oxide
+dip_O1            401.0174   401.0174    17.3232   283.5621    12.2494     15.999  ! high   OS    ! OR in P=O or P=S
+dip_C1            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dip_O2            401.0174   401.0174    17.3232   283.5621    12.2494     15.999  ! high   OS    ! OR in P=O or P=S
+dip_C2            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dip_C3            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dip_C4            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dip_O3            626.3868   626.3868    23.6698   442.9223    16.7370     15.999  ! high   O2Z   ! O= in OP
+dip_C5            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dip_C6            944.5180   944.5180    22.0296   667.8751    15.5773     12.011  ! high   CT    ! C: alkanes
+dip_H1             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H2             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H3             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H4             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H5             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H6             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H7             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H8             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H9             84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H10            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H11            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H12            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H13            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_H14            84.5728    84.5728     5.4127    59.8020     3.8273     1.0079  ! high   HC    ! H: alkanes
+dip_O4            401.0174   401.0174    17.3232   283.5621    12.2494     15.999  ! high   OS    ! OR in P=O or P=S
+dip_H15             0.0054     0.0054     0.0433     0.0038     0.0306     1.0079  ! high   HO    ! H(O): alcohols
+
+
+[bonds]
+dip_P1          dip_O1              810.00     1.6230     ! high   ! 0 P1-OS ==> P1-OS
+dip_P1          dip_O2              810.00     1.6230     ! high   ! 0 P1-OS ==> P1-OS
+dip_P1          dip_O3             1350.00     1.4900     ! high   ! 0 P1-O2Z ==> P1-O2Z
+dip_P1          dip_O4              810.00     1.6230     ! high   ! 0 P1-OS ==> P1-OS
+dip_O1          dip_C1              640.00     1.4100     ! high   ! 0 OS-CT ==> OS-CT
+dip_C1          dip_C4              536.00     1.5290     ! high   ! 0 CT-CT ==> CT-CT
+dip_C1          dip_C6              536.00     1.5290     ! high   ! 0 CT-CT ==> CT-CT
+dip_C1          dip_H1              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_O2          dip_C2              640.00     1.4100     ! high   ! 0 OS-CT ==> OS-CT
+dip_C2          dip_C3              536.00     1.5290     ! high   ! 0 CT-CT ==> CT-CT
+dip_C2          dip_C5              536.00     1.5290     ! high   ! 0 CT-CT ==> CT-CT
+dip_C2          dip_H2              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C3          dip_H3              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C3          dip_H4              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C3          dip_H5              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C4          dip_H6              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C4          dip_H7              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C4          dip_H8              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C5          dip_H9              680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C5          dip_H10             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C5          dip_H11             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C6          dip_H12             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C6          dip_H13             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_C6          dip_H14             680.00     1.0900     ! high   ! 0 CT-HC ==> HC-CT
+dip_O4          dip_H15            1106.00     0.9450     ! high   ! 0 OS-HO ==> OS-HO
+
+
+[angles]
+dip_O1          dip_P1          dip_O2              240.00   102.3800     ! high   ! ==> OS-P1-OS
+dip_O1          dip_P1          dip_O3              200.00   115.8610     ! high   ! ==> OS-P1-O2Z
+dip_O1          dip_P1          dip_O4              240.00   102.3800     ! high   ! ==> OS-P1-OS
+dip_O2          dip_P1          dip_O3              200.00   115.8610     ! high   ! ==> OS-P1-O2Z
+dip_O2          dip_P1          dip_O4              240.00   102.3800     ! high   ! ==> OS-P1-OS
+dip_O3          dip_P1          dip_O4              200.00   115.8610     ! high   ! ==> OS-P1-O2Z
+dip_P1          dip_O1          dip_C1              150.00   119.2460     ! high   ! ==> P1-OS-CT
+dip_O1          dip_C1          dip_C4              100.00   109.5000     ! high   ! ==> OS-CT-CT
+dip_O1          dip_C1          dip_C6              100.00   109.5000     ! high   ! ==> OS-CT-CT
+dip_O1          dip_C1          dip_H1               70.00   109.5000     ! high   ! ==> OS-CT-HC
+dip_C4          dip_C1          dip_C6              116.70   112.7000     ! high   ! ==> CT-CT-CT
+dip_C4          dip_C1          dip_H1               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C6          dip_C1          dip_H1               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_P1          dip_O2          dip_C2              150.00   119.2460     ! high   ! ==> P1-OS-CT
+dip_O2          dip_C2          dip_C3              100.00   109.5000     ! high   ! ==> OS-CT-CT
+dip_O2          dip_C2          dip_C5              100.00   109.5000     ! high   ! ==> OS-CT-CT
+dip_O2          dip_C2          dip_H2               70.00   109.5000     ! high   ! ==> OS-CT-HC
+dip_C3          dip_C2          dip_C5              116.70   112.7000     ! high   ! ==> CT-CT-CT
+dip_C3          dip_C2          dip_H2               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C5          dip_C2          dip_H2               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C2          dip_C3          dip_H3               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C2          dip_C3          dip_H4               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C2          dip_C3          dip_H5               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_H3          dip_C3          dip_H4               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_H3          dip_C3          dip_H5               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_H4          dip_C3          dip_H5               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_C1          dip_C4          dip_H6               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C1          dip_C4          dip_H7               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C1          dip_C4          dip_H8               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_H6          dip_C4          dip_H7               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_H6          dip_C4          dip_H8               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_H7          dip_C4          dip_H8               66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_C2          dip_C5          dip_H9               75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C2          dip_C5          dip_H10              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C2          dip_C5          dip_H11              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_H9          dip_C5          dip_H10              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_H9          dip_C5          dip_H11              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_H10         dip_C5          dip_H11              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_C1          dip_C6          dip_H12              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C1          dip_C6          dip_H13              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_C1          dip_C6          dip_H14              75.00   110.7000     ! high   ! ==> HC-CT-CT
+dip_H12         dip_C6          dip_H13              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_H12         dip_C6          dip_H14              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_H13         dip_C6          dip_H14              66.00   107.8000     ! high   ! ==> HC-CT-HC
+dip_P1          dip_O4          dip_H15             100.00   113.8610     ! high   ! ==> P1-OS-HO
+
+
+[torsions]
+dip_O2          dip_P1          dip_O1          dip_C1              0.9180    -1.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O2          dip_P1          dip_O1          dip_C1              0.2290    -2.0000   180.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O2          dip_P1          dip_O1          dip_C1              0.3205     3.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O3          dip_P1          dip_O1          dip_C1              0.0000     1.0000     0.0000     1.0000  ! high   ! ==> O2Z-P1-OS-CT
+dip_O4          dip_P1          dip_O1          dip_C1              0.9180    -1.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O4          dip_P1          dip_O1          dip_C1              0.2290    -2.0000   180.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O4          dip_P1          dip_O1          dip_C1              0.3205     3.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O1          dip_P1          dip_O2          dip_C2              0.9180    -1.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O1          dip_P1          dip_O2          dip_C2              0.2290    -2.0000   180.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O1          dip_P1          dip_O2          dip_C2              0.3205     3.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O3          dip_P1          dip_O2          dip_C2              0.0000     1.0000     0.0000     1.0000  ! high   ! ==> O2Z-P1-OS-CT
+dip_O4          dip_P1          dip_O2          dip_C2              0.9180    -1.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O4          dip_P1          dip_O2          dip_C2              0.2290    -2.0000   180.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O4          dip_P1          dip_O2          dip_C2              0.3205     3.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-CT
+dip_O1          dip_P1          dip_O4          dip_H15            -0.2290    -1.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-HO
+dip_O1          dip_P1          dip_O4          dip_H15             0.0945    -2.0000   180.0000     1.0000  ! high   ! ==> OS-P1-OS-HO
+dip_O1          dip_P1          dip_O4          dip_H15            -0.0780     3.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-HO
+dip_O2          dip_P1          dip_O4          dip_H15            -0.2290    -1.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-HO
+dip_O2          dip_P1          dip_O4          dip_H15             0.0945    -2.0000   180.0000     1.0000  ! high   ! ==> OS-P1-OS-HO
+dip_O2          dip_P1          dip_O4          dip_H15            -0.0780     3.0000     0.0000     1.0000  ! high   ! ==> OS-P1-OS-HO
+dip_O3          dip_P1          dip_O4          dip_H15             0.0000     1.0000     0.0000     1.0000  ! high   ! ==> O2Z-P1-OS-HO
+dip_P1          dip_O1          dip_C1          dip_C4             -2.6555    -1.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O1          dip_C1          dip_C4             -0.2235    -2.0000   180.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O1          dip_C1          dip_C4              0.2415     3.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O1          dip_C1          dip_C6             -2.6555    -1.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O1          dip_C1          dip_C6             -0.2235    -2.0000   180.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O1          dip_C1          dip_C6              0.2415     3.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O1          dip_C1          dip_H1              0.0300     3.0000     0.0000     1.0000  ! high   ! ==> P?-OS-CT-HC
+dip_O1          dip_C1          dip_C4          dip_H6              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_O1          dip_C1          dip_C4          dip_H7              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_O1          dip_C1          dip_C4          dip_H8              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_C6          dip_C1          dip_C4          dip_H6              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_C6          dip_C1          dip_C4          dip_H7              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_C6          dip_C1          dip_C4          dip_H8              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_H1          dip_C1          dip_C4          dip_H6              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_H1          dip_C1          dip_C4          dip_H7              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_H1          dip_C1          dip_C4          dip_H8              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_O1          dip_C1          dip_C6          dip_H12             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_O1          dip_C1          dip_C6          dip_H13             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_O1          dip_C1          dip_C6          dip_H14             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_C4          dip_C1          dip_C6          dip_H12             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_C4          dip_C1          dip_C6          dip_H13             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_C4          dip_C1          dip_C6          dip_H14             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_H1          dip_C1          dip_C6          dip_H12             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_H1          dip_C1          dip_C6          dip_H13             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_H1          dip_C1          dip_C6          dip_H14             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_P1          dip_O2          dip_C2          dip_C3             -2.6555    -1.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O2          dip_C2          dip_C3             -0.2235    -2.0000   180.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O2          dip_C2          dip_C3              0.2415     3.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O2          dip_C2          dip_C5             -2.6555    -1.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O2          dip_C2          dip_C5             -0.2235    -2.0000   180.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O2          dip_C2          dip_C5              0.2415     3.0000     0.0000     1.0000  ! high   ! ==> P2-OS-CT-CT
+dip_P1          dip_O2          dip_C2          dip_H2              0.0300     3.0000     0.0000     1.0000  ! high   ! ==> P?-OS-CT-HC
+dip_O2          dip_C2          dip_C3          dip_H3              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_O2          dip_C2          dip_C3          dip_H4              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_O2          dip_C2          dip_C3          dip_H5              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_C5          dip_C2          dip_C3          dip_H3              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_C5          dip_C2          dip_C3          dip_H4              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_C5          dip_C2          dip_C3          dip_H5              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_H2          dip_C2          dip_C3          dip_H3              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_H2          dip_C2          dip_C3          dip_H4              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_H2          dip_C2          dip_C3          dip_H5              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_O2          dip_C2          dip_C5          dip_H9              0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_O2          dip_C2          dip_C5          dip_H10             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_O2          dip_C2          dip_C5          dip_H11             0.2340     3.0000     0.0000     1.0000  ! high   ! ==> O?-CT-CT-HC
+dip_C3          dip_C2          dip_C5          dip_H9              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_C3          dip_C2          dip_C5          dip_H10             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_C3          dip_C2          dip_C5          dip_H11             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-CT
+dip_H2          dip_C2          dip_C5          dip_H9              0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_H2          dip_C2          dip_C5          dip_H10             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+dip_H2          dip_C2          dip_C5          dip_H11             0.1500     3.0000     0.0000     1.0000  ! high   ! ==> HC-CT-CT-HC
+
+
+[impropers]
+

@@ -1,0 +1,339 @@
+
+Build and version information
+
+Build number 6.0.8
+Build date   20180115
+Built:       
+      by     mpurg
+      on     cookieMonster
+      git id 0670be695109be30d338c65b603bf6a779f78d51
+      with   GNU Fortran Ubuntu 4.8.4-2ubuntu1~14.04.3 4.8.4
+qprep version 6.0.8 , git id=0670be695109be30d338c65b603bf6a779f78d51 initialising
+Current date 2018- 1-30 and time 17:18:18
+
+Welcome in qprep modification date 20180115
+
+ Q6, Copyright © 2017 Johan Åqvist, John Marelius, Shina Caroline Lynn Kamerlin and Paul Bauer
+ Q6 comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are welcome
+ to redistribute it under certain conditions. For details, add the --help flag.
+
+Qprep> 
+Reading molecular library ./0-ff/ohh.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+OHH       3   0.00      2      0      0      1
+
+Accumulated no. of library entries loaded =   1
+
+Qprep> 
+Reading molecular library ./0-ff/dfp.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+DFP      25  -0.00     24      0      0      1
+
+Accumulated no. of library entries loaded =   2
+
+Qprep> 
+Reading molecular library ./0-ff/ca6.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+CA6       7   2.00     18      0      0      1
+
+Accumulated no. of library entries loaded =   3
+
+Qprep> 
+Reading molecular library ./0-ff/qoplsaa.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+ALA      10   0.00      9      0      2      3
+ARG      24   1.00     23      2      6      4
+ARN      23   0.00     22      2      5      5
+ASN      14   0.00     13      1      4      5
+ASP      12  -1.00     11      0      3      3
+ASH      13   0.00     12      1      3      4
+CYS      11   0.00     10      0      2      3
+CYX      10   0.00      9      0      2      3
+GLN      17   0.00     16      1      4      6
+GLU      15  -1.00     14      0      3      4
+GLH      16   0.00     15      1      3      5
+GLY       7   0.00      6      0      2      2
+HIP      18   1.00     18      0      7      3
+HID      17   0.00     17      0      6      3
+HIE      17   0.00     17      0      6      3
+ILE      19   0.00     18      0      2      6
+LEU      19   0.00     18      0      2      6
+LYS      22   1.00     21      0      2      6
+LYN      21   0.00     20      0      2      6
+MET      17   0.00     16      0      2      4
+PHE      20   0.00     20      0      8      8
+PRO      14   0.00     14      0      2      4
+SER      11  -0.00     10      0      2      3
+THR      14  -0.00     13      0      2      4
+TRP      24   0.00     25      0     11      8
+TYR      21   0.00     21      0      8      8
+VAL      16   0.00     15      0      2      5
+NTE      21   1.00     20      0      1      6
+HOH       3   0.00      3      0      0      1
+SPC       3   0.00      3      0      0      1
+K+        1   1.00      0      0      0    none, creating default
+MG2+      1   2.00      0      0      0    none, creating default
+
+Accumulated no. of library entries loaded =  35
+
+Qprep> 
+Reading force field parameter file.
+Forcefield name:               Q-OPLSAA
+Forcefield type:               AMBER
+Lennard-Jones combination rule:GEOMETRIC
+Scaling of 1-4 electrostatics: 0.500
+Cut-off rule:                  switching atoms
+Improper potential:            PERIODIC
+Improper generation:           EXPLICIT
+ Coulomb constant is set to the default value of 332.
+Read   76 atom types
+>>>>> WARNING: No SYBYL name for one or more atom types.
+Read    0 atom type alias names
+Read    0 LJ type 2 pairs
+Read  115 bond types
+Read   45 unique bond parameters
+>>>>> WARNING: No SYBYL bond type for one or more bond types.
+Read  246 angle types
+Read   83  unique angle parameters
+Read  543 torsion types
+Read  153 unique torsion parameters
+Read   49 improper types
+Force field parameters successfully read.
+
+Qprep> 
+PDB file contains  2837 atoms.
+The number of atoms in the topology will be  5213
+molecule    1: ILE     3 - PHE   314
+molecule    2: CA6   339
+molecule    3: CA6   338
+molecule    4: DFP     1
+molecule    5: OHH     2
+molecule    6: HOH  1011
+molecule    7: HOH  1014
+molecule    8: HOH  1015
+molecule    9: HOH  1016
+molecule   10: HOH  1018
+molecule   11: HOH  1019
+molecule   12: HOH  1020
+molecule   13: HOH  1021
+molecule   14: HOH  1022
+molecule   15: HOH  1023
+molecule   16: HOH  1024
+molecule   17: HOH  1025
+molecule   18: HOH  1027
+molecule   19: HOH  1028
+molecule   20: HOH  1029
+molecule   21: HOH  1031
+molecule   22: HOH  1032
+molecule   23: HOH  1034
+molecule   24: HOH  1036
+molecule   25: HOH  1037
+molecule   26: HOH  1040
+molecule   27: HOH  1041
+molecule   28: HOH  1042
+molecule   29: HOH  1043
+molecule   30: HOH  1047
+molecule   31: HOH  1048
+molecule   32: HOH  1050
+molecule   33: HOH  1052
+molecule   34: HOH  1053
+molecule   35: HOH  1054
+molecule   36: HOH  1055
+molecule   37: HOH  1056
+molecule   38: HOH  1057
+molecule   39: HOH  1058
+molecule   40: HOH  1059
+molecule   41: HOH  1060
+molecule   42: HOH  1061
+molecule   43: HOH  1064
+molecule   44: HOH  1065
+molecule   45: HOH  1066
+molecule   46: HOH  1067
+molecule   47: HOH  1070
+molecule   48: HOH  1071
+molecule   49: HOH  1072
+molecule   50: HOH  1073
+molecule   51: HOH  1074
+molecule   52: HOH  1075
+molecule   53: HOH  1076
+molecule   54: HOH  1077
+molecule   55: HOH  1078
+molecule   56: HOH  1081
+molecule   57: HOH  1082
+molecule   58: HOH  1084
+molecule   59: HOH  1087
+molecule   60: HOH  1088
+molecule   61: HOH  1089
+molecule   62: HOH  1090
+molecule   63: HOH  1091
+molecule   64: HOH  1092
+molecule   65: HOH  1093
+molecule   66: HOH  1095
+molecule   67: HOH  1096
+molecule   68: HOH  1097
+molecule   69: HOH  1098
+molecule   70: HOH  1101
+molecule   71: HOH  1103
+molecule   72: HOH  1104
+molecule   73: HOH  1105
+molecule   74: HOH  1106
+molecule   75: HOH  1117
+molecule   76: HOH  1118
+molecule   77: HOH  1119
+molecule   78: HOH  1120
+molecule   79: HOH  1122
+molecule   80: HOH  1123
+molecule   81: HOH  1124
+molecule   82: HOH  1125
+molecule   83: HOH  1130
+molecule   84: HOH  1132
+molecule   85: HOH  1133
+molecule   86: HOH  1135
+molecule   87: HOH  1136
+molecule   88: HOH  1143
+molecule   89: HOH  1150
+molecule   90: HOH  1151
+molecule   91: HOH  1152
+molecule   92: HOH  1153
+molecule   93: HOH  1154
+molecule   94: HOH  1155
+molecule   95: HOH  1156
+molecule   96: HOH  1161
+molecule   97: HOH  1164
+molecule   98: HOH  1166
+molecule   99: HOH  1168
+molecule  100: HOH  1169
+molecule  101: HOH  1170
+molecule  102: HOH  1171
+molecule  103: HOH  1172
+molecule  104: HOH  1174
+molecule  105: HOH  1177
+molecule  106: HOH  1179
+molecule  107: HOH  1190
+molecule  108: HOH  1194
+molecule  109: HOH  1198
+molecule  110: HOH  1199
+molecule  111: HOH  1220
+molecule  112: HOH  1224
+molecule  113: HOH  1226
+molecule  114: HOH  1228
+molecule  115: HOH  1244
+molecule  116: HOH  1248
+molecule  117: HOH  1250
+molecule  118: HOH  1251
+molecule  119: HOH  1253
+molecule  120: HOH  1255
+
+Successfully read PDB file with  120 molecules,
+  431 residues totally (  316 in solute).
+ 5213 atoms totally ( 4868 in solute).
+
+Sequence listing:
+
+ILE  PRO  VAL  ILE  GLH  PRO  LEU  PHE  THR  LYN  VAL  THR  GLH  ASH  ILE  PRO 
+GLY  ALA  GLU  GLY  PRO  VAL  PHE  ASH  LYN  ASN  GLY  ASH  PHE  TYR  ILE  VAL 
+ALA  PRO  GLU  VAL  GLU  VAL  ASN  GLY  LYN  PRO  ALA  GLY  GLU  ILE  LEU  ARN 
+ILE  ASH  LEU  LYN  THR  GLY  LYN  LYS  THR  VAL  ILE  CYS  LYS  PRO  GLH  VAL 
+ASN  GLY  TYR  GLY  GLY  ILE  PRO  ALA  GLY  CYS  GLN  CYS  ASH  ARN  ASH  ALA 
+ASN  GLN  LEU  PHE  VAL  ALA  ASP  MET  ARG  LEU  GLY  LEU  LEU  VAL  VAL  GLN 
+THR  ASH  GLY  THR  PHE  GLH  GLH  ILE  ALA  LYN  LYN  ASH  SER  GLH  GLY  ARN 
+ARN  MET  GLN  GLY  CYS  ASN  ASP  CYS  ALA  PHE  ASP  TYR  GLH  GLY  ASN  LEU 
+TRP  ILE  THR  ALA  PRO  ALA  GLY  GLH  VAL  ALA  PRO  ALA  ASH  TYR  THR  ARG 
+SER  MET  GLN  GLH  LYS  PHE  GLY  SER  ILE  TYR  CYS  PHE  THR  THR  ASH  GLY 
+GLN  MET  ILE  GLN  VAL  ASP  THR  ALA  PHE  GLN  PHE  PRO  ASN  GLY  ILE  ALA 
+VAL  ARN  HID  MET  ASN  ASH  GLY  ARN  PRO  TYR  GLN  LEU  ILE  VAL  ALA  GLU 
+THR  PRO  THR  LYS  LYS  LEU  TRP  SER  TYR  ASH  ILE  LYN  GLY  PRO  ALA  LYN 
+ILE  GLH  ASN  LYS  LYN  VAL  TRP  GLY  HIE  ILE  PRO  GLY  THR  HIE  GLU  GLY 
+GLY  ALA  ASP  GLY  MET  ASP  PHE  ASH  GLH  ASH  ASN  ASN  LEU  LEU  VAL  ALA 
+ASN  TRP  GLY  SER  SER  HID  ILE  GLU  VAL  PHE  GLY  PRO  ASH  GLY  GLY  GLN 
+PRO  LYN  MET  ARG  ILE  ARN  CYS  PRO  PHE  GLU  LYS  PRO  SER  ASN  LEU  HIE 
+PHE  LYN  PRO  GLN  THR  LYN  THR  ILE  PHE  VAL  THR  GLU  HIE  GLU  ASN  ASN 
+ALA  VAL  TRP  LYN  PHE  GLH  TRP  GLN  ARN  ASN  GLY  LYN  LYN  GLN  TYR  CYS 
+GLH  THR  LEU  LYN  PHE  GLY  ILE  PHE  CA6  CA6  DFP  OHH  HOH  HOH  HOH  HOH 
+HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH 
+HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH 
+HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH 
+HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH 
+HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH 
+HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH 
+HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH  HOH 
+
+Qprep> Qprep> 
+Simulation sphere centre                   :     14.313   2.491  60.822
+Simulation radius                          :     25.000
+Qprep> 
+Solvation sphere centre                   :     14.313   2.491  60.822
+Library entry used to generate solvent  :       HOH 
+Radius of solvent sphere                =      25.00 A
+Grid spacing                            =       3.10 A 
+No. of solvent molecules in the sphere:  2109
+Minimum distance to solute heavy atoms:  2.40 A
+No. of solvent molecules to add to the system:   607
+Qprep> Qprep> Assigned  7034 atom types.
+Assigned  7034 atomic charges.
+Made      4951 solute bonds.
+Made         0 extra bonds.
+Made      2166 solvent bonds.
+Made      8996 solute angles.
+Made       722 solvent angles.
+Made     18023 solute torsions.
+Made         0 solvent torsions.
+Made       994 solute impropers.
+Made         0 solvent impropers.
+Made     12968 entries in the 1-4 neighbour list.
+Made        10 entries in the long-range 1-4 neighbour list.
+Made     16835 entries in list of excluded neighbours.
+Made         0 entries in list of long-range excluded neighbours.
+>>> WARNING: Positioning of hydrogen  1713 bound to atom  1711 didn't converge.
+Potential is   10.237 kcal/mol.
+>>> WARNING: Positioning of hydrogen  2460 bound to atom  2458 didn't converge.
+Potential is    3.340 kcal/mol.
+Made      2376 solute hydrogens.
+Made      1214 solvent hydrogens.
+Made     1346 solute  charge groups comprising a total of   4454 atoms.
+Made      722 solvent charge groups comprising a total of   2166 atoms.
+Skipped   125excluded charge groups comprising a total of    414 atoms.
+Effective water radius                     : 24.16
+Topology successfully generated.
+Qprep> 
+---------------------------- Writing topology file ---------------------------
+solute atoms                :   4868
+solvent atoms               :   2166
+solvent mol atoms           :      3
+solvent dielectric as num*10:  80100
+co-ordinates                :  21102
+integer atom codes          :   7034
+solute bonds                :   4951
+solvent bonds               :   2166
+bond parameters             :     41
+solute angles               :   8996
+solvent angles              :    722
+angle parameters            :     73
+torsions                    :  18023
+torsion parameters          :    130
+impropers                   :    994
+improper parameters         :     31
+charges                     :   7034
+total charge of not excluded:  -2.00
+charge groups               :   2068
+atom type parameters        :     76
+polar LJ pairs              :      0
+neighbour list              :  12968
+long-range neighbour list   :     10
+neighbour exclusion list    :  16835
+long-range exclusions       :      0
+residues                    :   1038
+molecules                   :    727
+Atom type names             :     76
+SYBYL type information      :     76
+excluded atom list          :    414
+
+Qprep> 
+
+PDB file successfully written.
+
+Qprep> 
